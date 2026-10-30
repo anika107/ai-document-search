@@ -1,10 +1,3 @@
----
-title: ai-document-search
-app_file: app.py
-sdk: gradio
-sdk_version: 4.44.1
----
-
 # AI Document Search
 
 Upload PDF documents, build a searchable knowledge base, and ask questions about their contents. The app extracts PDF text, creates embeddings, stores them in a FAISS index, and uses a Hugging Face text generation model to answer questions with retrieved context.
